@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.59 s <<< FAILURE! - in TestSuite
+test_InvalidLogin(TestCases.Test_InvalidLogin)  Time elapsed: 23.434 s  <<< FAILURE!
+java.lang.AssertionError: invalid login error message not displayed expected [true] but found [false]
+	at TestCases.Test_InvalidLogin.test_InvalidLogin(Test_InvalidLogin.java:29)
+
