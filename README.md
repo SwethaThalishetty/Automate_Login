@@ -35,7 +35,7 @@ Ensure installation of below softwares before proceeding with test execution,
         - Open TestSuites folder -> **LoginTests.xml** 
         - right click on the file -> run as testng
         - All the tests will be executed as per the sequence mentioned.
-        - Test report will be generated and stored in "reports" folder with name **Automation_Report.json**
+        - Test report will be generated and stored in "reports" folder with name __Automation_Report.json__
       2. Execution through command line
         - Open command line at the project location.
         - Run command "**mvn clean install**", all the tests of project will be executed.
