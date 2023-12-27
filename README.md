@@ -23,23 +23,24 @@ Ensure installation of below softwares before proceeding with test execution,
     - Open eclipse, import the cloned project as "existing maven project".
     - Right click on the project -> update maven project (required dependencies will be downloaded).
 ## Required Dependencies of pom.xml
-    - Selenium Java
-    - Testng
-    - WebDriver Manager
-    - Json Simple
+      - Selenium Java
+      - Testng
+      - WebDriver Manager
+      - Json Simple
   note: all the dependencies are available in given pom.xml file, for more details and updated versions of mentioned dependencies please refer to [central maven repository](https://mvnrepository.com/)
+  
 ## Instructions to execute project
     Execution can be done through 2 ways. 
-    1. Execution through eclipse IDE
-      - Open TestSuites folder -> LoginTests.xml 
-      - right click on the file -> run as testng
-      - All the tests will be executed as per the sequence mentioned.
-      - Test report will be generated and stored in "reports" folder with name "Automation_Report.json"
-    2. Execution through command line
-      - Open command line at the project location.
-      - Run command "mvn clean install", all the tests of project will be executed.
+      1. Execution through eclipse IDE
+        - Open TestSuites folder -> **LoginTests.xml** 
+        - right click on the file -> run as testng
+        - All the tests will be executed as per the sequence mentioned.
+        - Test report will be generated and stored in "reports" folder with name "**Automation_Report.json**"
+      2. Execution through command line
+        - Open command line at the project location.
+        - Run command "**mvn clean install**", all the tests of project will be executed.
       
 ## TestData Reference Document
-    - please refer to TestData folder to update required test data details, "data.json" file to be manipulated.
+      - please refer to TestData folder to update required test data details, "**data.json**" file to be manipulated.
 ## Test Report Reference
-    - please refer to reports folder for generated test report, "Automation_Report.json"
+      - please refer to reports folder for generated test report, "**Automation_Report.json**"
